@@ -1,9 +1,9 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(43,43,43);
+    background-color: rgb(43, 43, 43);
 }
 
 .clock {
@@ -11,34 +11,33 @@ body{
     height: 300px;
     width: 300px;
     border-radius: 150px;
-    border: solid 5px rgb(252,255,55);
+    border: solid 5px rgb(252, 255, 55);
 }
 
-#seconds-hand{
+#seconds-hand {
     position: absolute;
-   height: 130px;
-   width: 2px;
-   background-color: rgb(70,255,255);
-   left: 149px;
-   bottom: 149px;
-   opacity: 50%;
+    height: 130px;
+    width: 2px;
+    background-color: rgb(70, 255, 255);
+    left: 149px;
+    bottom: 149px;
+    opacity: 50%;
 }
 
-#minutes-hand{
+#minutes-hand {
     height: 100px;
     width: 2px;
-    background-color: rgb(253,120,227);
+    background-color: rgb(253, 120, 227);
     position: absolute;
     left: 149px;
     bottom: 149px;
 }
 
-#hours-hand{
+#hours-hand {
     height: 80px;
     width: 4px;
-    background-color: rgb(205,122,255);
+    background-color: rgb(205, 122, 255);
     position: absolute;
     left: 148px;
     bottom: 148px;
 }
-
